@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Header styles */
+
+.logo {
+  width: 114px;
+
+}
+
+.nav-delivery {
+  display: flex;
+  flex-direction: column;
+  margin-left: 57.5px;
+}
+
+.nav-user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rightArrow {
+  margin-left: 81px;
+  margin-top: -13px;
+}
+
+.delivery-logo {
+  margin-left: 57.5px;
+  width: 37.5px;
+  height: 26px;
+}
+
+
+.searchbar {
+  height: 40px;
+  width: 606px;
+  border: 1px solid rounded #165C7D;
+  border-radius: 5px;
+  margin-right: 37px;
+}
+
+.cart {
+  margin-right: 72px;
+}
+
+.test {
+  padding-left: 100px;
+}
+
+/* Footer styles  */
+
+.footer-div {
+  background-color: #F5F5F5;
+  /* width: 1920px;
+  height: 428px; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.footer-11 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.p-head {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 47px;
+}
+
+.phn {
+  font-weight: bold;
+}
+
+.addr {
+  font-weight: 500;
+}
+
+.subButton {
+  width: 223px;
+  height: 48.8px;
+  background-color: #165C7D;
+  color: white;
+  border-radius: 5px;
+  font-size: larger;
+  font-weight: 200;
+}
+
+.subButton:hover {
+  background-color: #2a6f8f;
+}
+
+.tail{
+  text-align: center;
+  background-color: #f5f5f5;
+  height: 80px;
+}
+
+.tailhr{
+  margin: 10px;
+  width: 1700px;
+  margin: auto;
+
+}
