@@ -51,8 +51,8 @@ function Header() {
 
         <div className='cart'>
           <button>
-          <div><img src={cart}></img></div>
-          <div>Cart</div>
+            <div><img src={cart}></img></div>
+            <div>Cart</div>
           </button>
         </div>
       </nav>
