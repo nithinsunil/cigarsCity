@@ -1,6 +1,6 @@
 module.exports = {
   content: [
-    "./src/components/Header.js"
+    "./src/components/MyAccount.js", "./src/components/Header.js"
   ],
   theme: {
     extend: {},
